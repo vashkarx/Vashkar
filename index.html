@@ -1,0 +1,75 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Happy Birthday ❤️</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>  
+    <!-- HERO SECTION -->  
+    <header>
+    <h1 class="hero-header">🎉Happy Birthday, My Love</h1>
+    <p> ❤️ You make my world brighter every single day</p>
+  </header>  
+  <!-- MESSAGE SECTION -->  
+   <section>
+    <h2>💌 A Message For You</h2>
+    <p>
+      This is where you write your personal birthday message.
+      You can edit this text anytime to say whatever your heart wants.
+    </p>
+  </section>  
+  <!-- PHOTO GALLERY -->  
+  
+  <section>
+    <h2>📸 Our Memories</h2>
+    <div class="gallery">
+      <!-- Replace image1.jpg, image2.jpg etc with your own photos -->
+      <img src="https://cdn.pixabay.com/photo/2023/04/03/18/35/nature-7897648_1280.jpg" alt="Memory 1" />
+      <img src="https://cdn.pixabay.com/photo/2023/04/03/18/35/nature-7897648_1280.jpg" alt="Memory 2" />
+      <img src="https://cdn.pixabay.com/photo/2023/04/03/18/35/nature-7897648_1280.jpg" alt="Memory 3" />
+      <img src="https://cdn.pixabay.com/photo/2023/04/03/18/35/nature-7897648_1280.jpg" alt="Memory 3" />
+    </div>
+  </section>  <!-- MUSIC SECTION -->  
+  
+  <section>
+    <h2>🎶 Something to be said by your loved ones</h2>
+    <p>Hear what you favourite person wants to say 💕</p>
+    <!-- Replace song.mp3 with your own song file -->
+    <audio controls>
+      <source src="AAH.mp3" type="audio/mpeg" />
+      Your browser does not support the audio element.
+    </audio>
+  </section>  
+  
+  <!-- FINAL NOTE --> 
+  <section>
+    <h2>🌹 Forever Us</h2>
+    <p>
+      I’m so grateful for you today and always.
+      Here’s to many more birthdays together ✨
+    </p>
+  </section>  
+
+  <section>
+    <h1 class="love-track">💌Love Tracker</h1>
+    <h2 id="result">0</h2>
+    <button id="btn">I Love You</button>
+  </section>  
+  <footer>
+    <p>Made with ❤️ just for you</p>
+  </footer>
+
+
+
+  <script>
+    const btn = document.getElementById("btn");
+    const result = document.getElementById("result");
+    let count = 0;
+    btn.addEventListener("click", ()=>{
+        count++;
+        result.innerHTML = count;
+    })
+  </script>
+</body>
+</html>

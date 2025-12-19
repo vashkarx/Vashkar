@@ -1,0 +1,75 @@
+body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(270deg, #b01015, #efb1e5);
+      color: #333;
+      text-align: center;
+    }
+    header {
+      padding: 60px 20px;
+    }
+    .hero-header{
+        color: white;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.2rem;
+      color: white;
+    }
+    section {
+      padding: 40px 20px;
+      background: rgba(255,255,255,0.8);
+      margin: 20px;
+      border-radius: 20px;
+    }
+    h2 {
+      color: #e75480;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 15px;
+      margin-top: 20px;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 15px;
+    }
+    audio {
+      margin-top: 15px;
+      width: 100%;
+      max-width: 400px;
+    }
+    footer {
+      padding: 30px;
+      font-size: 0.9rem;
+    }
+    footer p{
+        color: white;
+    }
+    .love-track{
+        color: #e75480;
+    }
+    #btn{
+        padding: 10px;
+        border: none;
+        border-radius: 10px;
+        background-color: #efb1e5;
+        color: whitesmoke;
+        font-size: 20px;
+    }
+    #btn{
+            color: rgb(132, 25, 154);
+            animation: glowEffect 2s infinite;
+        }
+        @keyframes glowEffect {
+            0% { box-shadow: 0 0 5px rgb(255, 0, 247); }
+            50% { box-shadow: 0 0 20px rgb(166, 0, 255); }
+            100% { box-shadow: 0 0 5px rgb(162, 0, 255); }
+        }
+    #btn:hover{
+        cursor: pointer;
+    }
